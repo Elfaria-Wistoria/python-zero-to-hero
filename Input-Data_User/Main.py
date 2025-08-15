@@ -1,17 +1,44 @@
-# Episode input user
+# #latihan
+# print("latihan-1")
+# for i in range(1, 11):
+#   print(i)
 
-# data yang dimasukan pasti string
-data = input("Masukan data: ")
 
-print("data = ",data,",type =",type(data))
+# print("\nlatihan-2")
+# #latihan
+# for i in range(0, 21, 2):
+#   print(i)
 
-# jika kita ingin mengambil int, maka
-angka = float(input("masukan angka: "))
-angka = int(input("masukan angka: "))
+# print("\nlatihan-3")
+# for huruf in "edwin":
+#     print(huruf)
 
-print("data = ",angka,",type =",type(angka))
 
-#bagaimana dengan boolean
-biner = bool(int(input("masukan nilai boolean: ")))
+# print("\nlatihan-4")
 
-print("data = ",biner,",type =",type(biner))
+# angka = 0
+# while angka < 10:
+#   angka += 1
+#   if angka == 5:
+#     continue
+#   print(angka)
+
+# print("\nlatihan-5")
+# angka = 0
+# while angka < 10:
+#   angka += 1
+#   if angka == 7:
+#     break
+#   print(angka)
+
+# Tinggi segitiga
+tinggi = 6
+
+for i in range(1, tinggi + 1): # +1 karena kalau tidak dia hanya berhenti di 4 dan tidak sampai 5
+    print("*" * i)
+
+tinggi = 6
+
+for i in range(tinggi, 0, -1):
+    print("*" * i)
+
